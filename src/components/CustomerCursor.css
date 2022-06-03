@@ -1,0 +1,28 @@
+.cursor-outer {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.cursor-inner {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background-color: white;
+	mix-blend-mode: difference;
+	transition: transform 0.6s ease-in-out;
+}
+
+.enlarge {
+	transform: scale(1.5);
+}
